@@ -1,0 +1,389 @@
+.Survey-section {
+  background: radial-gradient(circle at top, #ffffff, #f1f5f9);
+  padding: 80px 0;
+  min-height: 100vh;
+}
+
+.Survey-h2 {
+  color: #133d64;
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.survey-subtitle {
+  color: #64748b;
+  font-size: 17px;
+}
+
+.progress-stepper {
+  max-width: 800px;
+  margin-bottom: 50px;
+}
+
+.steps-indicators {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+.step-dot {
+  text-align: center;
+  width: 120px;
+}
+
+.dot-number {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border: 2px solid #e2e8f0;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  transition: 0.3s;
+}
+
+.step-dot.active .dot-number {
+  background: #133d64;
+  border-color: #133d64;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(19, 61, 100, 0.2);
+}
+
+.dot-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+.step-dot.active .dot-label {
+  color: #133d64;
+}
+
+.custom-progress {
+  height: 6px !important;
+  background: #e2e8f0 !important;
+  margin-top: -42px;
+  border-radius: 10px;
+}
+
+.custom-progress .progress-bar {
+  background: #133d64 !important;
+}
+
+.survey-card {
+  max-width: 900px;
+  border: none !important;
+  border-radius: 30px !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.06) !important;
+}
+
+.step-inner-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #133d64;
+  margin-bottom: 30px;
+
+  border-left: 5px solid #fbbf24;
+  padding-left: 15px;
+}
+
+.form-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #475569;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.form-control,
+.form-select {
+  border-radius: 12px !important;
+  background: #f8fafc !important;
+  border: 1.5px solid #e2e8f0 !important;
+  padding: 12px 15px !important;
+}
+
+.premium-packages-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.tier-card {
+  background: #fff;
+  border: 2px solid #f1f5f9;
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tier-card:hover {
+  transform: translateY(-8px);
+  border-color: #fbbf24;
+}
+
+.tier-card.selected {
+  border-color: #133d64;
+  background: #f0f9ff;
+}
+
+.tier-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.tier-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tier-price {
+  font-size: 28px;
+  font-weight: 800;
+  color: #133d64;
+  margin: 10px 0;
+}
+
+/* Features list inside package */
+.package-features {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  /* default LTR */
+}
+
+.package-feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+
+.info-alert {
+  background: #fff9eb;
+  padding: 20px;
+  border-radius: 15px;
+
+  border-left: 5px solid #fbbf24;
+}
+
+.btn-next-custom {
+  background: #133d64 !important;
+  border: none !important;
+  padding: 15px 45px !important;
+  border-radius: 12px !important;
+  font-weight: 700;
+}
+
+.btn-back-custom {
+  background: white !important;
+  color: #64748b !important;
+  border: 1.5px solid #e2e8f0 !important;
+  padding: 15px 45px !important;
+  border-radius: 12px !important;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+@media (max-width: 991px) {
+  .Survey-section {
+    padding: 60px 20px;
+  }
+
+  .Survey-h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .survey-subtitle {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .progress-stepper {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .step-dot {
+    width: 90px;
+  }
+
+  .dot-number {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .dot-label {
+    font-size: 11px;
+  }
+
+  .custom-progress {
+    margin-top: -36px;
+    height: 5px !important;
+  }
+
+  .survey-card {
+    padding: 25px 15px;
+  }
+
+  .step-inner-title {
+    font-size: 20px;
+    margin-bottom: 22px;
+  }
+
+  .form-label {
+    font-size: 12px;
+  }
+
+  .form-control,
+  .form-select {
+    padding: 10px 12px !important;
+    font-size: 14px;
+  }
+
+  .tier-card {
+    padding: 25px 15px;
+  }
+
+  .tier-icon {
+    font-size: 34px;
+  }
+
+  .tier-name {
+    font-size: 18px;
+  }
+
+  .tier-price {
+    font-size: 24px;
+  }
+
+  .info-alert {
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  .btn-next-custom,
+  .btn-back-custom {
+    padding: 12px 32px !important;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Survey-h2 {
+    font-size: 24px;
+  }
+
+  .survey-subtitle {
+    font-size: 14px;
+  }
+
+  .step-dot {
+    width: 70px;
+  }
+
+  .dot-number {
+    width: 28px;
+    height: 28px;
+    font-size: 11px;
+  }
+
+  .dot-label {
+    font-size: 10px;
+  }
+
+  .survey-card {
+    padding: 20px 12px;
+  }
+
+  .step-inner-title {
+    font-size: 18px;
+  }
+
+  .tier-icon {
+    font-size: 30px;
+  }
+
+  .tier-name {
+    font-size: 16px;
+  }
+
+  .tier-price {
+    font-size: 22px;
+  }
+
+  .btn-next-custom,
+  .btn-back-custom {
+    width: 100%;
+    padding: 12px 0 !important;
+  }
+}
+
+/* =========================
+   RTL OVERRIDES (AR/HE)
+   يعتمد على document.dir = rtl
+   ========================= */
+
+/* direction العام للصفحة (بدون ما نكسر inputs) */
+[dir="rtl"] .Survey-section {
+  direction: rtl;
+}
+
+/* عنوان الستيب: border & padding تتقلب */
+[dir="rtl"] .step-inner-title {
+  border-left: 0;
+  padding-left: 0;
+  border-right: 5px solid #fbbf24;
+  padding-right: 15px;
+}
+
+/* info-alert border تتقلب */
+[dir="rtl"] .info-alert {
+  border-left: 0;
+  border-right: 5px solid #fbbf24;
+}
+
+/* Features list داخل الباكج تصير يمين */
+[dir="rtl"] .package-features {
+  text-align: right;
+}
+
+[dir="rtl"] .package-feature-item {
+  justify-content: flex-start;
+  /* مع rtl + flex طبيعي */
+}
+
+/* حقول email/number خليه ltr عشان الكتابة تكون طبيعية */
+[dir="rtl"] input[type="email"],
+[dir="rtl"] input[type="number"] {
+  direction: ltr;
+  text-align: right;
+}

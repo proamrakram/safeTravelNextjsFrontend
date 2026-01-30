@@ -1,0 +1,196 @@
+.navbarhead {
+  background: linear-gradient(180deg,
+      rgba(15, 42, 68, 0.98),
+      rgba(15, 42, 68, 0.95));
+  backdrop-filter: blur(12px);
+  padding: 18px 0;
+  border-bottom: 1px solid rgba(255, 184, 77, 0.15);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s ease;
+}
+
+/* ===== Logo ===== */
+.logo-brand {
+  display: flex;
+  align-items: center;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+  color: #FFB84D !important;
+  text-decoration: none;
+}
+
+.logo-brand span {
+  color: #ffffff;
+}
+
+.logo-icon {
+  font-size: 30px;
+  margin-right: 12px;
+  color: #FFB84D;
+  filter: drop-shadow(0 0 8px rgba(255, 184, 77, 0.35));
+}
+
+/* ===== Nav Links ===== */
+.nav-custom-link {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.75) !important;
+  margin-left: 28px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.nav-custom-link:hover,
+.nav-custom-link.active {
+  color: #FFB84D !important;
+}
+
+.nav-custom-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background: linear-gradient(90deg, transparent, #FFB84D, transparent);
+  transition: width 0.3s ease;
+}
+
+.nav-custom-link:hover::after,
+.nav-custom-link.active::after {
+  width: 100%;
+}
+
+/* ===== Contact Button ===== */
+.nav-contact-btn {
+  margin-left: 35px;
+  padding: 10px 30px !important;
+  font-size: 14px;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 10px !important;
+  background: linear-gradient(135deg, #FFB84D, #ffcc80) !important;
+  color: #0F2A44 !important;
+  transition: all 0.3s ease !important;
+}
+
+.nav-contact-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(255, 184, 77, 0.35);
+  background: #ffffff !important;
+}
+
+/* ===== Toggler ===== */
+.custom-toggler {
+  border: none !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 991px) {
+
+  .navbarhead {
+    padding: 14px 0;
+  }
+
+  /* ===== Logo ===== */
+  .logo-brand {
+    font-size: 22px !important;
+  }
+
+  .logo-icon {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+
+  .nav-custom-link {
+    margin-left: 0;
+
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    padding: 10px 0 !important;
+    margin-left: 0;
+
+  }
+
+  .nav-contact-btn {
+    margin-left: 0;
+    margin-top: 18px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px !important;
+  }
+
+  .navbar-collapse {
+    background-color: #0F2A44;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 18px;
+  }
+}
+
+/* =========================
+   Language dropdown styling
+   ========================= */
+#nav-lang-dropdown {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+#nav-lang-dropdown:hover {
+  color: #FFB84D !important;
+}
+
+.navbarhead .dropdown-menu {
+  background: #0F2A44;
+  border: 1px solid rgba(255, 184, 77, 0.18);
+  border-radius: 14px;
+  padding: 10px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+}
+
+.navbarhead .dropdown-item {
+  color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 600;
+}
+
+.navbarhead .dropdown-item:hover,
+.navbarhead .dropdown-item:focus {
+  background: rgba(255, 184, 77, 0.14);
+  color: #FFB84D;
+}
+
+.navbarhead .dropdown-item.active,
+.navbarhead .dropdown-item:active {
+  background: rgba(255, 184, 77, 0.22);
+  color: #FFB84D;
+}
+
+/* RTL: flip dropdown spacing + align text */
+[dir="rtl"] .navbarhead .dropdown {
+  margin-left: 0 !important;
+  margin-right: 8px;
+}
+
+[dir="rtl"] .navbarhead .dropdown-menu {
+  text-align: right;
+}

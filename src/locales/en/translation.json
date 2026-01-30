@@ -1,0 +1,259 @@
+{
+    "app": {
+        "name": "Safe Travel"
+    },
+    "nav": {
+        "home": "Home",
+        "survey": "Registration",
+        "payment": "Payment",
+        "faqs": "FAQs",
+        "contact": "Contact",
+        "language": "Language"
+    },
+    "about": {
+        "badge": "Safe Travel Legacy",
+        "headingLine1": "Redefining Safety",
+        "headingLine2": "Where Boundaries End, Our Care Begins",
+        "p1": "Safe Travel isn't just a logistics firm; we are a lifeline. With decades of field experience, we bridge the gap between high-risk zones and global security for those who need it most.",
+        "p2": "Our approach is built on discretion, precision, and human dignity. Every journey is a unique mission tailored to ensure your absolute peace of mind.",
+        "quote": "Through Safe Travel, many individuals have moved from high-risk zones to safety. This story reflects hope powered by expertise.",
+        "ctaPrimary": "Explore Our Mission",
+        "ctaSecondary": "View Reports",
+        "videoFallback": "Your browser does not support video.",
+        "side": {
+            "title": "Your Journey Starts Here",
+            "subtitle": "A premium experience with clarity and support.",
+            "stat1": "security",
+            "stat2": "Support",
+            "stat3": "comfort"
+        },
+        "features": {
+            "secureTitle": "Secure & Reliable",
+            "secureDesc": "We follow clear processes to keep your journey smooth and safe.",
+            "supportTitle": "24/7 Support",
+            "supportDesc": "Our team is available around the clock to assist you anywhere.",
+            "planningTitle": "Smart Planning",
+            "planningDesc": "From documents to booking details — everything is organized for you."
+        },
+        "trust": {
+            "fast": "fast",
+            "secure": "secure",
+            "quality": "quality"
+        }
+    },
+    "contact": {
+        "status": "Online Coordination",
+        "title": "Direct Inquiry",
+        "subtitle": "Fill out the form below for travel assistance. Our specialists monitor this channel 24/7.",
+        "fullName": "Full Name",
+        "namePlaceholder": "Enter your name",
+        "details": "Inquiry Details",
+        "messagePlaceholder": "How can we assist you today?",
+        "submit": "Dispatch Message",
+        "alertSuccess": "Message encryption completed. Redirecting to support...",
+        "sidebarTitle": "Fast-Track Support",
+        "sidebarDesc": "For instant verification and secure file transfers, we recommend our official Telegram channel.",
+        "secured": "Secured",
+        "support24h": "24h",
+        "openTelegram": "Open Telegram Chat",
+        "avgResponse": "Average response time:",
+        "avgResponseValue": "~15 mins"
+    },
+    "faqs": {
+        "title": "Common Questions",
+        "subtitle": "Find answers to the most frequent inquiries about your journey",
+        "q1": "What services does Safe Travel provide?",
+        "a1": "Safe Travel provides organized travel services from Gaza, including registration, document follow-up, and full coordination with relevant authorities to ensure a secure transit experience.",
+        "q2": "How can I start my application?",
+        "a2": "Simply navigate to our Registration section, fill in the multi-step form with your legal details, and our coordination team will reach out within 24-48 hours.",
+        "q3": "Is help available for families?",
+        "a3": "Absolutely. We specialize in group and family travel logistics, ensuring all members are documented and coordinated simultaneously for a unified journey.",
+        "q4": "Can I update my info after submission?",
+        "a4": "Yes, you can request an edit through our support center as long as the application is in the Pending status. Once finalized with authorities, changes may be limited.",
+        "q5": "Is my personal data safe?",
+        "a5": "We employ enterprise-grade encryption. Your sensitive documents and identity information are stored in secure environments and only shared with official transit authorities.",
+        "q6": "What are the payment options?",
+        "a6": "We offer multiple secure channels including online credit card processing, Telegram-guided transfers, and physical office payments for your convenience."
+    },
+    "features": {
+        "faqTitle": "Frequently Asked Questions",
+        "faqLink": "View FAQs →",
+        "paymentTitle": "Multiple Payment Methods",
+        "paymentLink": "Secure Checkout →",
+        "faqAlt": "FAQs",
+        "paymentAlt": "Payment"
+    },
+    "footer": {
+        "brand": "SafeTravel",
+        "desc": "A specialized platform providing secure, discreet, and managed travel support. We bridge distances with dignity and ensure every journey is backed by unwavering reliability.",
+        "navTitle": "Navigation",
+        "supportTitle": "Support",
+        "support247": "24/7 Support",
+        "supportDesc": "Our specialists are ready to guide you through every step of your journey.",
+        "contactSpecialist": "Contact Specialist",
+        "copyright1": "© {{year}}",
+        "crafted": "Crafted for Security.",
+        "securePaymentsVia": "Secure Payments via",
+        "links": {
+            "home": "Home",
+            "survey": "Registration",
+            "payment": "Payment",
+            "faqs": "Faqs",
+            "contact": "Contact"
+        },
+        "supportLinks": {
+            "faqsCenter": "FAQs Center",
+            "terms": "Terms of Service",
+            "privacy": "Privacy Policy",
+            "emergency": "Emergency Help"
+        }
+    },
+    "join": {
+        "title": "Start Your Safe Journey Today",
+        "text": "Join thousands of travelers who trust us for safe, simple, and transparent travel services. Click below to register and begin your journey with ease.",
+        "btn": "Register Now",
+        "imgAlt": "Safe Journey Checklist"
+    },
+    "payment": {
+        "secureBadge": "Secure Card Payment",
+        "title": "Pay with Credit Card",
+        "subtitle": "Use your Visa or MasterCard to complete the payment securely",
+        "methodLabel": "Payment Method",
+        "methodName": "Credit / Debit Card",
+        "methodMeta": "Visa • MasterCard",
+        "cardDetailsTitle": "Card Details",
+        "cardDetailsDesc": "Enter your card information below. Your payment is encrypted and processed securely.",
+        "benefit1": "Secure Encryption",
+        "benefit2": "Instant Payment",
+        "benefit3": "Accepted Worldwide",
+        "cardholder": "Cardholder Name",
+        "cardholderPh": "Name on card",
+        "cardNumber": "Card Number",
+        "cardNumberPh": "1234 5678 9012 3456",
+        "expiry": "Expiry Date",
+        "expiryPh": "MM / YY",
+        "cvv": "CVV",
+        "cvvPh": "***",
+        "payNow": "Pay Now"
+    },
+    "why": {
+        "subtitle": "OUR STRENGTHS",
+        "title1": "Why Choose",
+        "highlight": "Safe Travel",
+        "items": {
+            "01": {
+                "title": "Best Prices",
+                "desc": "Competitive prices with no hidden fees and complete transparency."
+            },
+            "02": {
+                "title": "24/7 Support",
+                "desc": "Our team is available around the clock to assist you anywhere."
+            },
+            "03": {
+                "title": "Global Reach",
+                "desc": "Wide selection of flights and hotels worldwide to suit all budgets."
+            },
+            "04": {
+                "title": "Data Security",
+                "desc": "Advanced encryption technologies to protect your information."
+            },
+            "05": {
+                "title": "Easy Booking",
+                "desc": "Simple and fast steps designed for a hassle-free experience."
+            },
+            "06": {
+                "title": "Full Services",
+                "desc": "Visas, travel programs, and insurance all in one place."
+            }
+        }
+    },
+    "registration": {
+        "title": "Travel Registration",
+        "subtitle": "Plan your dream journey with our premium packages",
+        "steps": {
+            "personal": "Personal Info",
+            "travel": "Travel Info",
+            "docs": "Family & Docs",
+            "package": "Select Package"
+        },
+        "errors": {
+            "fillRequired": "Please fill in all required fields to proceed.",
+            "submitFail": "Submission failed. Please try again."
+        },
+        "success": {
+            "submitted": "Registration submitted successfully! We will contact you soon."
+        },
+        "buttons": {
+            "back": "Back",
+            "next": "Next Step",
+            "confirm": "Confirm Booking",
+            "addMember": "+ Add Member"
+        },
+        "personal": {
+            "title": "Personal Information",
+            "fullName": "Full Name",
+            "fullNamePh": "Enter your name",
+            "age": "Age",
+            "agePh": "Enter your age",
+            "gender": "Gender",
+            "genderPh": "Select...",
+            "male": "Male",
+            "female": "Female",
+            "email": "Email",
+            "emailPh": "example@mail.com"
+        },
+        "travel": {
+            "title": "Travel Details",
+            "destination": "Destination",
+            "destinationPh": "e.g., Egypt, Paris, France",
+            "stay": "Stay Duration (Days)",
+            "stayPh": "10",
+            "travelers": "Number of Travelers"
+        },
+        "docs": {
+            "title": "Documents & Family",
+            "photo": "Photo",
+            "passport": "Passport",
+            "idCard": "ID Card",
+            "familyTitle": "Family Members",
+            "memberNamePh": "Full Name",
+            "memberAgePh": "Age",
+            "memberGenderPh": "Gender",
+            "maleShort": "M",
+            "femaleShort": "F"
+        },
+        "packages": {
+            "title": "Select Your Travel Package",
+            "subtitle": "Choose the package that fits your needs and budget.",
+            "noteTitle": "Note:",
+            "noteText": "All packages include full coordination with the relevant authorities to ensure a safe passage.",
+            "economic": {
+                "name": "Economic",
+                "desc": "Ideal for organized budget travel.",
+                "features": [
+                    "Economy Flight",
+                    "3★ Hotel",
+                    "Travel Guide"
+                ]
+            },
+            "comfortable": {
+                "name": "Comfortable",
+                "desc": "Our most popular choice for hassle-free trips.",
+                "features": [
+                    "Regular Flight",
+                    "4★ Hotel",
+                    "Visa Support"
+                ]
+            },
+            "vip": {
+                "name": "VIP Luxury",
+                "desc": "Ultimate luxury experience with private support.",
+                "features": [
+                    "Business Class",
+                    "5★ Hotel",
+                    "Private Assistant"
+                ]
+            }
+        }
+    }
+}

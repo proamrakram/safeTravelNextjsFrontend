@@ -1,0 +1,43 @@
+/* في ملف App.css الأساسي */
+:root {
+  --main-font: 'Inter', 'Cairo', sans-serif;
+}
+
+html,
+body,
+#root,
+.App {
+  font-family: var(--main-font) !important;
+}
+
+/* إجبار كل العناصر بلا استثناء */
+* {
+  font-family: 'Inter', 'Cairo', sans-serif !important;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Inter', 'Cairo', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Inter', 'Cairo', sans-serif;
+  font-weight: 600;
+}
+
+.btn {
+  font-family: 'Inter', 'Cairo', sans-serif;
+  font-weight: 500;
+}
+
+.footer-luxury,
+.footer-luxury *,
+.navbar,
+.navbar * {
+  font-family: 'Inter', 'Cairo', sans-serif !important;
+}

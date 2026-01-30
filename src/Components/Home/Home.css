@@ -1,0 +1,84 @@
+.home {
+  background-image: url(../../assets/img/travel.jpg);
+  background-repeat: no-repeat;
+
+  /* أفضل تركيبة للخلفيات */
+  background-position: center top;
+  background-size: cover;
+
+  width: 100%;
+  position: relative;
+
+  /* 100vh مشاكلها على الموبايل */
+  min-height: 100vh;
+  min-height: 100svh;
+  height: 100vh;
+  height: 100svh;
+
+  overflow: hidden;
+}
+
+/* Overlay اختياري (لو حطيت نص فوق الصورة) */
+.home-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg,
+      rgba(15, 42, 68, 0.55) 0%,
+      rgba(15, 42, 68, 0.15) 55%,
+      rgba(15, 42, 68, 0.55) 100%);
+  pointer-events: none;
+}
+
+/* مكان المحتوى (اختياري) */
+.home-content {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  min-height: inherit;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Direction-aware alignment (لو أضفت نص لاحقًا) */
+[dir="rtl"] .home-content {
+  text-align: right;
+}
+
+[dir="ltr"] .home-content {
+  text-align: left;
+}
+
+/* Animation */
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .home {
+    height: 80vh;
+    height: 80svh;
+    min-height: 80vh;
+    min-height: 80svh;
+    background-position: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .home {
+    height: 40vh;
+    height: 40svh;
+    min-height: 40vh;
+    min-height: 40svh;
+    background-position: center top;
+  }
+}

@@ -1,0 +1,222 @@
+.footer-luxury {
+    background-color: #0d2b47;
+    color: #ffffff;
+    position: relative;
+    padding-top: 60px;
+    overflow: hidden;
+}
+
+/* Accent */
+.footer-top-accent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, #FFB84D, transparent);
+}
+
+/* Brand */
+.footer-brand {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    letter-spacing: -1px;
+}
+
+.footer-brand span {
+    color: #FFB84D;
+    font-weight: 300;
+}
+
+.footer-description {
+    font-size: 14px;
+    line-height: 1.8;
+    color: #94a3b8;
+    margin-bottom: 25px;
+}
+
+/* Headings */
+.footer-heading {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.footer-heading::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background: #FFB84D;
+}
+
+/* Links */
+.footer-links-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links-list li {
+    margin-bottom: 15px;
+}
+
+.footer-links-list a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: block;
+}
+
+.footer-links-list a:hover {
+    color: #FFB84D;
+    transform: translateX(5px);
+}
+
+/* Button */
+.footer-action-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: transparent;
+    border: 1.5px solid #FFB84D;
+    color: #FFB84D;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.footer-action-btn:hover {
+    background: #FFB84D;
+    color: #0d2b47;
+}
+
+/* Divider */
+.footer-divider {
+    height: 1px;
+    background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.05) 50%,
+            rgba(255, 255, 255, 0) 100%);
+    margin-top: 40px;
+}
+
+/* Copyright */
+.copyright-text {
+    font-size: 13px;
+    color: #64748b;
+}
+
+.copyright-text span {
+    color: #FFB84D;
+}
+
+/* Badges */
+.payment-badges {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.badge-text {
+    font-size: 12px;
+    color: #64748b;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #FFB84D !important;
+    border-radius: 3px;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+
+    .footer-luxury {
+        padding-top: 45px;
+        text-align: center;
+    }
+
+    /* Brand */
+    .footer-brand {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .footer-description {
+        font-size: 13.5px;
+        line-height: 1.7;
+        margin-bottom: 22px;
+    }
+
+    /* Headings */
+    .footer-heading {
+        font-size: 14px;
+        margin-top: 24px;
+        margin-bottom: 22px;
+    }
+
+    .footer-heading::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Links */
+    .footer-links-list li {
+        margin-bottom: 12px;
+    }
+
+    .footer-links-list a {
+        font-size: 13.5px;
+    }
+
+    /* Button */
+    .footer-action-btn {
+        font-size: 12.5px;
+        padding: 10px 24px;
+    }
+
+    /* Divider */
+    .footer-divider {
+        margin-top: 30px;
+    }
+
+    /* Copyright */
+    .copyright-text {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    /* Badges */
+    .payment-badges {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .badge-text {
+        font-size: 11.5px;
+    }
+}
+
+/* =========================
+   RTL OVERRIDES (AR/HE)
+   ========================= */
+[dir="rtl"] .footer-heading::after {
+    left: auto;
+    right: 0;
+}
+
+[dir="rtl"] .footer-links-list a:hover {
+    transform: translateX(-5px);
+}

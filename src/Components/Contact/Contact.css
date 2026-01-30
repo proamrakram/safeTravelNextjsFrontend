@@ -1,0 +1,305 @@
+.contact-page {
+    padding: 120px 0;
+    background: radial-gradient(circle at 10% 20%, #f1f5f9 0%, #f8fafc 100%);
+    min-height: 100vh;
+}
+
+/* Header helpers */
+.contact-subtitle {
+    color: #64748b;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.7;
+}
+
+/* Status Tag */
+.status-tag {
+    display: inline-flex;
+    align-items: center;
+    background: #f0fdf4;
+    color: #166534;
+    padding: 6px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #22c55e;
+    border-radius: 50%;
+    display: inline-block;
+
+    /* بدل margin-right */
+    margin-inline-end: 8px;
+}
+
+.pulse {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+    animation: pulse-green 2s infinite;
+}
+
+@keyframes pulse-green {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(34, 197, 94, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+    }
+}
+
+/* Wrapper Card */
+.contact-wrapper {
+    background: #ffffff;
+    border-radius: 35px;
+    overflow: hidden;
+    box-shadow: 0 40px 100px -20px rgba(15, 42, 68, 0.15);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.contact-form-container {
+    padding: 60px 80px;
+}
+
+.contact-title {
+    color: #0f172a;
+    font-weight: 900;
+    font-size: 42px;
+    letter-spacing: -1.5px;
+}
+
+.form-custom-label {
+    font-weight: 700;
+    font-size: 13px;
+    color: #334155;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+/* Inputs */
+.custom-input {
+    border: 1.5px solid #e2e8f0 !important;
+    border-radius: 12px !important;
+    padding: 15px 18px !important;
+    background-color: #fcfcfc !important;
+    font-size: 15px !important;
+    transition: all 0.3s ease !important;
+}
+
+.custom-input:focus {
+    border-color: #133d64 !important;
+    background-color: #ffffff !important;
+    box-shadow: 0 8px 20px rgba(19, 61, 100, 0.05) !important;
+}
+
+.no-resize {
+    resize: none;
+}
+
+/* Submit Button */
+.contact-submit-btn {
+    background: #133d64 !important;
+    border: none !important;
+    border-radius: 12px !important;
+    font-weight: 700 !important;
+    color: #FFB84D !important;
+    box-shadow: 0 15px 30px rgba(19, 61, 100, 0.15);
+    transition: all 0.25s ease !important;
+}
+
+.contact-submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 18px 35px rgba(19, 61, 100, 0.2);
+}
+
+/* Sidebar */
+.contact-info-sidebar {
+    background: url("../../assets/img/contact.jpg") center/cover;
+    position: relative;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+
+.sidebar-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg,
+            rgba(19, 61, 100, 0.95) 0%,
+            rgba(30, 74, 117, 0.9) 100%);
+    z-index: 1;
+}
+
+.info-content-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.telegram-icon-circle {
+    width: 90px;
+    height: 90px;
+    background: rgba(255, 184, 77, 0.1);
+    border: 2px solid #FFB84D;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px;
+    color: #FFB84D;
+    transform: rotate(5deg);
+}
+
+.trust-pills {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.trust-pill {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.telegram-action-btn {
+    display: block;
+    background-color: #FFB84D;
+    color: #133d64 !important;
+    padding: 16px 40px;
+    border-radius: 12px;
+    font-weight: 800;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(255, 184, 77, 0.3);
+}
+
+.telegram-action-btn:hover {
+    transform: translateY(-3px);
+    background-color: #ffffff;
+}
+
+.text-light-50 {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.support-meta small {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .contact-page {
+        padding: 80px 15px;
+    }
+
+    .contact-title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .contact-form-container {
+        padding: 30px 20px;
+    }
+
+    .custom-input {
+        font-size: 14px !important;
+        padding: 12px 15px !important;
+    }
+
+    .contact-submit-btn {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px 0 !important;
+    }
+
+    .contact-info-sidebar {
+        padding: 40px 20px;
+    }
+
+    .telegram-icon-circle {
+        width: 70px;
+        height: 70px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .trust-pill {
+        font-size: 11px;
+        padding: 4px 12px;
+    }
+
+    .telegram-action-btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact-title {
+        font-size: 24px;
+    }
+
+    .custom-input {
+        font-size: 13px !important;
+    }
+
+    .contact-submit-btn {
+        font-size: 13px;
+        padding: 10px 0 !important;
+    }
+
+    .telegram-icon-circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .telegram-action-btn {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+}
+
+/* =========================
+   RTL OVERRIDES (AR/HE)
+   ========================= */
+[dir="rtl"] .contact-page {
+    direction: rtl;
+}
+
+[dir="rtl"] .contact-form-container {
+    text-align: right;
+}
+
+[dir="rtl"] .status-tag {
+    justify-content: flex-start;
+}
+
+/* inputs RTL */
+[dir="rtl"] .custom-input {
+    direction: rtl;
+    text-align: right;
+}

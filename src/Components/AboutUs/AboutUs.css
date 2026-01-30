@@ -1,0 +1,352 @@
+.about-luxury-section {
+  background: radial-gradient(circle at 0% 0%, #1a4d7c, #133d64);
+  padding: 140px 0;
+  color: #f3f4f6;
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-shimmer {
+  position: absolute;
+  inset: -50%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.03), transparent 70%);
+}
+
+/* Badge */
+.about-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #FFB84D;
+  background: rgba(255, 184, 77, 0.1);
+  border: 1px solid rgba(255, 184, 77, 0.25);
+  margin-bottom: 30px;
+  width: fit-content;
+}
+
+.badge-dot {
+  width: 6px;
+  height: 6px;
+  background: #FFB84D;
+  border-radius: 50%;
+  box-shadow: 0 0 8px #FFB84D;
+}
+
+/* Content wrapper (for directional text align) */
+.about-content {
+  position: relative;
+}
+
+/* Heading */
+.about-heading {
+  font-size: clamp(38px, 5vw, 56px);
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.accent-text {
+  display: block;
+  margin-top: 14px;
+  font-size: 0.5em;
+  font-weight: 400;
+  color: #93c5fd;
+  font-style: italic;
+}
+
+/* Text */
+.about-description {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #cbd5e1;
+  margin-bottom: 20px;
+}
+
+/* Quote */
+.about-quote-card {
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.04) !important;
+  border-left: 3px solid #FFB84D !important;
+  border-radius: 0 16px 16px 0 !important;
+}
+
+.quote-icon {
+  font-size: 42px;
+  color: #FFB84D;
+  opacity: 0.4;
+}
+
+.about-quote-card p {
+  font-style: italic;
+  color: #e2e8f0;
+}
+
+/* Buttons */
+.btn-group-custom {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+.about-btn-primary,
+.about-btn-outline {
+  letter-spacing: 1px;
+  padding: 16px 35px !important;
+  border-radius: 8px !important;
+}
+
+.about-btn-primary {
+  background: #FFB84D !important;
+  color: #133d64 !important;
+  border: none !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-btn-primary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(255, 184, 77, 0.3);
+}
+
+.about-btn-outline {
+  background: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+/* ✅ Trust pills (تحسين UX) */
+.about-trust-row {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.trust-pill {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #fff !important;
+  font-weight: 600;
+}
+
+/* ============================
+   ✅ SIDE PANEL (replaces video)
+   ============================ */
+.side-frame-container {
+  position: relative;
+}
+
+.about-side-card {
+  border-radius: 20px !important;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(10px);
+}
+
+.side-header {
+  margin-bottom: 16px;
+}
+
+.side-title {
+  font-weight: 800;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.side-subtitle {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.95rem;
+}
+
+.features-grid {
+  margin-top: 16px;
+  display: grid;
+  gap: 14px;
+}
+
+.feature-item {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.feature-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  flex: 0 0 auto;
+}
+
+.feature-icon i {
+  font-size: 18px;
+  color: #FFB84D;
+  opacity: 0.95;
+}
+
+.feature-title {
+  font-weight: 700;
+  font-size: 0.98rem;
+  color: #fff;
+}
+
+.feature-desc {
+  margin-top: 2px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.9rem;
+  line-height: 1.35rem;
+}
+
+.mini-stats {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.mini-stat {
+  text-align: center;
+  padding: 10px 8px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mini-stat-num {
+  font-weight: 900;
+  font-size: 1.05rem;
+  color: #fff;
+}
+
+.mini-stat-label {
+  margin-top: 2px;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* بدل video-decoration-box */
+.side-decoration-box {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 100px;
+  height: 100px;
+  border-right: 4px solid #FFB84D;
+  border-bottom: 4px solid #FFB84D;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .about-luxury-section {
+    padding: 80px 0;
+  }
+
+  .about-badge {
+    font-size: 11px;
+    padding: 8px 16px;
+    letter-spacing: 1.5px;
+    margin: 0 auto 22px;
+  }
+
+  .about-heading {
+    font-size: 30px;
+    line-height: 1.25;
+    text-align: center;
+    margin-bottom: 22px;
+  }
+
+  .accent-text {
+    font-size: 0.55em;
+    margin-top: 10px;
+  }
+
+  .about-description {
+    font-size: 14.5px;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .quote-icon {
+    font-size: 34px;
+  }
+
+  .about-quote-card p {
+    font-size: 14px;
+  }
+
+  .btn-group-custom {
+    justify-content: center;
+    gap: 14px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+
+  .about-btn-primary,
+  .about-btn-outline {
+    padding: 12px 26px !important;
+    font-size: 13px;
+  }
+
+  .side-decoration-box {
+    width: 70px;
+    height: 70px;
+    bottom: -14px;
+    right: -14px;
+  }
+
+  .side-title,
+  .side-subtitle {
+    text-align: center;
+  }
+}
+
+/* =========================
+   RTL / LTR MIRROR FIXES
+   ========================= */
+
+/* Text alignment on desktop (only content column) */
+@media (min-width: 992px) {
+  .about-luxury-section.is-rtl .about-content {
+    text-align: right;
+  }
+
+  .about-luxury-section.is-ltr .about-content {
+    text-align: left;
+  }
+}
+
+/* Quote flip */
+.about-luxury-section.is-rtl .about-quote-card {
+  border-left: none !important;
+  border-right: 3px solid #FFB84D !important;
+  border-radius: 16px 0 0 16px !important;
+}
+
+/* Side decoration flip (بدل الفيديو) */
+.about-luxury-section.is-rtl .side-decoration-box {
+  right: auto;
+  left: -20px;
+  border-right: none;
+  border-left: 4px solid #FFB84D;
+  border-bottom: 4px solid #FFB84D;
+}
+
+@media (max-width: 991px) {
+  .about-luxury-section.is-rtl .side-decoration-box {
+    right: auto;
+    left: -14px;
+  }
+}
